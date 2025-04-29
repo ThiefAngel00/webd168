@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    border: solid 5px lightblue;
+    height: 500px;
+    width: 280px;
+    background-color: aliceblue;
+}
