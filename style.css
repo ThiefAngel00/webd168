@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -9,7 +13,23 @@ nav {
     font-size: 30px;
     margin: 15px;
     border: solid 5px lightblue;
-    height: 500px;
-    width: 280px;
+    height: auto;
+    width: 300px;
     background-color: aliceblue;
+}
+li {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(166, 206, 239);
+    border-radius: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    padding: 10px;
+    background-color: rgb(196, 162, 232);
+    border-radius: 16px;
 }
