@@ -1,0 +1,15 @@
+caption {
+    caption-side: top;
+}
+
+.table-dark {
+    --bs-table-bg: #861388;
+}
+
+header {
+    background-color: #861388;
+}
+
+nav {
+    background-color: #4B2840;
+}
