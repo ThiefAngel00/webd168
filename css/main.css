@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@media (max-width: 767.98px) {
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .wrap {
+    float: none;
+    margin: 0 auto;
+  }
+}
+body html {
+  height: 100%;
+}
+
+body {
+  background-color: #F1F7ED;
+}
+
+nav {
+  background-color: #e4cbf3;
+  color: #4B2840;
+}
+
+main section {
+  padding: 4rem;
+  margin: 0 auto;
+}
+main caption {
+  caption-side: top;
+}
+main .table-dark {
+  --bs-table-bg: #861388;
+}
+main nav {
+  background-color: #4B2840;
+}
+main section#music {
+  background-color: #e4cbf3;
+}
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main li {
+  margin-bottom: 10px;
+}
+main section#primary {
+  text-align: center;
+  color: #4B2840;
+}
+main header {
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: #861388;
+}
+main .wrap {
+  float: left;
+  margin: 10px;
+}
+main a {
+  color: #4B2840;
+  border-radius: 15px;
+  padding: 4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #e4cbf3;
+  display: inline-block;
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+footer {
+  background-color: #4B2840;
+  color: #F1F7ED;
+}/*# sourceMappingURL=main.css.map */

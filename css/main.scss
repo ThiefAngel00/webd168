@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+$colors: (
+    neutral: #F1F7ED,
+    secondary:#861388,
+    accent: #84788b,
+    primary: #e4cbf3,
+    text: #4B2840
+);
+
+$font-main: 'Montserrat', sans-serif;
+$borders: 15px;
+
+@function color($color-name) {
+    @return map-get($colors , $color-name);
+}
+
+@media (max-width: 767.98px) { 
+    section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .wrap {
+        float: none;
+        margin: 0 auto;
+    }
+ }
+
+body html {
+ height: 100%;
+}
+
+body {
+    background-color: color(neutral);
+}
+
+nav {
+    background-color: color(primary);
+    color: color(text);
+}
+
+main {
+    section {
+        padding: 4rem;
+        margin: 0 auto;
+    }
+    caption {
+        caption-side: top;
+    }
+    .table-dark {
+        --bs-table-bg: #861388;
+    }
+    nav {
+        background-color: color(text);
+    }
+    section#music {
+        background-color: color(primary);
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    section#primary {
+        text-align: center;
+        color: color(text);
+    }
+    header {
+        font-size: 2em;
+        text-transform: uppercase;
+        background-color: color(secondary);
+    }
+    .wrap {
+        float: left;
+        margin: 10px;
+    }
+    a {
+        color: color(text);
+        border-radius: $borders;
+        padding: 4rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: color(primary);
+        display: inline-block;
+        text-align: center;
+        margin: 30px auto 0 auto;
+    }
+}
+footer {
+    background-color: color(text);
+    color: color(neutral);
+}
